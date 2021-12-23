@@ -1,0 +1,28 @@
+.GameCard {
+    color: rgba(0, 0, 0, 0.753);
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+
+    .Figure{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    img {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        object-fit: cover;
+        transition: all 0.2s linear;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+}
