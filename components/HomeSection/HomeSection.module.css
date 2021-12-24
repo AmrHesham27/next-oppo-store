@@ -1,0 +1,87 @@
+/* section and section header */
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7vw 60px 7vw;
+}
+
+.sectionHeader {
+  width: 100%;
+  display: block;
+  padding: 64px 0 24px 0;
+}
+
+.sectionHeader > h2 {
+  font-size: calc(1rem + 1.5vw);
+}
+
+.new {
+  font-size: 10px;
+  color: green;
+  padding: 0 10px;
+}
+
+/* cards container */
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* product */
+.narrowProduct, .wideProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 26vw;
+}
+
+.narrowProduct {
+  width: 26vw;
+}
+
+.wideProduct {
+  width: 52vw;
+}
+
+.narrowProduct > h2, .wideProduct > h2 {
+  font-size: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* img */
+.wideImg, .narrowImg {
+  width: 52vw;
+  height: 34.6vw;
+  position: relative;
+}
+
+.wideImg {
+  width: 52vw;
+}
+
+.narrowImg {
+  width: 26vw;
+}
+
+/* for learn more button */
+.learnMore {
+  margin-top: 10px;
+}
+
+.learnMore > a {
+  background-color: #000;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  padding: 6px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white !important;
+  font-size: 13px;
+}
+
+.learnMore > a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}/*# sourceMappingURL=HomeSection.module.css.map */

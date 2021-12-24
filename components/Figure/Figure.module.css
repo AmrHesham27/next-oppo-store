@@ -1,0 +1,20 @@
+.FigureCard .Figure {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.FigureCard img {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.2s linear;
+}
+.FigureCard img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Figure.module.css.map */
